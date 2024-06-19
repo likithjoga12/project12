@@ -1,0 +1,135 @@
+.topbar,.bg-main
+{
+    background-color: #207e09;
+}
+.topbar ul li
+{
+    display: inline;
+    padding-right: 30px;
+}
+a
+{
+    text-decoration: none;
+}
+.topbar ul li a
+{
+    color:#fff;
+    font-weight: 600;
+}
+
+img
+{
+    max-width: 100%;
+}
+.courses h6
+{
+    text-align: center;
+    padding: 9px 0px;
+}
+.bx-shadow 
+{
+    box-shadow: 2px 3px 5px 3px rgb(128, 127, 127);
+    margin-bottom: 30px;
+}
+.about h1
+{
+    font-size: 30px;
+}
+.about p
+{
+    text-align: justify;
+    line-height: 29px;
+}
+.about input,.about textarea
+{
+    margin-bottom: 25px;
+}
+.about h4
+{
+    color: #fff;
+    padding: 8px 0px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.about input[type="submit"]
+{
+    background-color: #207e09;
+    color: #fff;
+    padding: 8px 20px;
+    text-align: center;
+    border:none
+}
+.nav-link
+{
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+.courses
+{
+    background-color: rgb(199, 200, 201);
+    padding: 40px 0px;
+}
+.tmode
+{
+    padding: 40px 0px;
+}
+.tmode img
+{
+    width:130px
+}
+.bg-tmain
+{
+    background-color:#d9f5f8a3;
+    padding: 20px 0px;
+}
+.bg-tmain h6
+{
+    padding: 28px 0px 0px;
+}
+.bg-tmain p
+{
+    padding: 5px 20px;
+}
+.rounded-5
+{
+    border-radius: 30px;
+}
+@media(max-width:650px)
+{
+    .socialmedia
+    {
+        display: none;
+    }
+    .courses .col-md-3
+    {
+        width:50%;
+    }
+    .about .bx-shadow
+    {
+        width:300px;
+        margin: 0px auto;
+    }
+
+}
+.bt{
+    background-image: url(../images/ban.jfif);
+    width: 100%;
+    background-size: cover;
+    background-position-y: center;
+}
+.bx-shadow1 
+{
+    box-shadow: 2px 3px 5px 3px rgb(128, 127, 127);
+    margin-bottom: 30px;
+
+}
+footer{
+    padding-top: 100px;
+}
+.topfooter{
+    background-color: #207e09;
+}
